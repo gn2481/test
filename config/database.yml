@@ -66,7 +66,7 @@ test:
 staging:
 <<: *default
 database: Test_staging
-username: Test
+username: deploy
 password: <%= ENV['DATABASE_PASSWORD'] %>
 
 # As with config/credentials.yml, you never want to store sensitive information,
@@ -91,5 +91,5 @@ password: <%= ENV['DATABASE_PASSWORD'] %>
 production:
   <<: *default
   database: Test_production
-  username: Test
+  username: deploy
   password: <%= ENV['DATABASE_PASSWORD'] %>
