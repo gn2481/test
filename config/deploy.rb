@@ -29,7 +29,7 @@ append :linked_files, 'config/secrets.yml', 'config/application.yml', 'config/ma
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/system'
 
 # Default value for default_env is {}
-set :default_env, { path: '/usr/bin/ruby:$PATH' }
+set :default_env, { path: '/usr/local/rvm/rubies/ruby-2.6.5/bin/ruby:$PATH' }
 
 # Default value for local_user is ENV['USER']
 # set :local_user, -> { `git config user.name`.chomp }
