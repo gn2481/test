@@ -32,7 +32,7 @@ development:
   #username: Test
 
   # The password associated with the postgres role (username).
-  #password:
+  # password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -82,4 +82,4 @@ production:
   <<: *default
   database: Test_production
   username: Test
-  password: <%= ENV['TEST_DATABASE_PASSWORD'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
