@@ -37,6 +37,9 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # To server
   gem 'capistrano', '~> 3.10', require: false
+  gem 'capistrano-bundler', '~> 2.0', '>= 2.0.1'
+  gem 'capistrano-rails', '~> 1.6', '>= 1.6.1'
+  gem 'capistrano-passenger', '~> 0.2.0'
 end
 
 group :development do
