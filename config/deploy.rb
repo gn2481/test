@@ -9,6 +9,8 @@ set :repo_url, 'git@github.com:gn2481/test.git'
 
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "/var/www/my_app_name"
+set :deploy_to, '/home/deploy/staging'
+# set :deploy_to, '/home/deploy/production'
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
