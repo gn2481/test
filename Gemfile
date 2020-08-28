@@ -32,6 +32,10 @@ gem 'devise', '~> 4.2'
 # for secrets.yml
 gem 'figaro', '~> 1.0'
 
+gem 'net-ssh', '~> 6.1'
+gem 'ed25519', '~> 1.2', '>= 1.2.4'
+gem 'bcrypt_pbkdf', '~> 1.0', '>= 1.0.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
