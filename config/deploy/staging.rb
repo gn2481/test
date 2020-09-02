@@ -9,7 +9,8 @@
 # VMware
 # server '192.168.112.128', user: 'deploy', roles: %w[app web db]
 # AWS EC2
-server '54.249.214.207', user: 'deploy', roles: %w[app web db]
+# server '54.249.214.207', user: 'deploy', roles: %w[app web db]
+server 'staging.bubble-gram.com', user: 'deploy', roles: %w[app web db]
 
 # 可以放很多ip 一次重啟passenger
 # role-based syntax
